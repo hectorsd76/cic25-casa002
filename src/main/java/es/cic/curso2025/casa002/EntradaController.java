@@ -60,6 +60,7 @@ public class EntradaController {
     // Hacemos un metodo que nos va a devolver un objeto con un id asignado desde la url
     @GetMapping("/{id}")
     public Entrada create(@PathVariable long id){
+        
         Entrada entrada1 = new Entrada();
 
         entrada1.setNombreDeCliente("Héctor");
