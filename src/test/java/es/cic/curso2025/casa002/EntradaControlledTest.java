@@ -9,7 +9,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 public class EntradaControlledTest {
 
-    // Permitimos con  Spring y la antoacion @autowired utilizar los metodos de EntradaController
+    // Permitimos con  Spring  la antoacion @autowired utilizar los metodos de EntradaController
 	@Autowired
 	EntradaController entradaController;
 

@@ -41,7 +41,6 @@ class Proy005ApplicationTests {
 	@Test
 	void testLista(){
 
-		// Manera correcta para asignar el tipo
 		ArrayList<String> miLista = new ArrayList<>();
 		miLista.add("Hola");
 		String mensajeOriginal = miLista.get(0);
